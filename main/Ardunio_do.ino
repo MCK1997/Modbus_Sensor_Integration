@@ -1,4 +1,6 @@
 /*
+   UNDER MIT LICENSE
+   created by Muhammed Çağrı KÜÇÜKALP 11.10.2024 hope it will help you achieve something well.   
    Arduino Code for Atlas Scientific Dissolved Oxygen (DO) Sensor
    This code communicates with the Atlas Scientific DO sensor using SoftwareSerial. 
    It requests DO readings and processes the response, extracting the numeric value.
