@@ -1,3 +1,5 @@
+# UNDER MIT LICENSE
+# created by Muhammed Çağrı KÜÇÜKALP 11.10.2024 hope it will help you achieve something well. 
 # This Python code establishes a serial RS485 communication between Raspberry Pi and a connected device.
 # The GPIO pin 4 is used for RS485 direction control (switching between transmit and receive modes).
 # It reads data from the RS485 bus via the specified serial port ('/dev/serial0') and prints the received message to the console.
