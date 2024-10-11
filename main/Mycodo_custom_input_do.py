@@ -1,3 +1,5 @@
+# UNDER MIT LICENSE
+# created by Muhammed Çağrı KÜÇÜKALP 11.10.2024 hope it will help you achieve something well. 
 # Mycodo RS485 and pH Sensor Input
 # This code is designed for integrating an RS485-based DO sensor with Mycodo. It communicates with the sensor via RS485, retrieves the pH value, and returns it for Mycodo's data logging. The code uses RPi.GPIO for GPIO control and pySerial for RS485 communication.
 
