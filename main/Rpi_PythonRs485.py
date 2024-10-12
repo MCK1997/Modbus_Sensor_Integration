@@ -17,7 +17,7 @@ GPIO.setup(RS485_DE_RE_PIN, GPIO.OUT)
 
 # Serial port setup
 ser = serial.Serial(
-    port='/dev/serial0',  # Use the correct serial port for your Raspberry Pi
+    port='/dev/serial0',  # Serial port for Raspberry Pi
     baudrate=9600,        # RS485 baud rate set to 9600
     parity=serial.PARITY_NONE,
     stopbits=serial.STOPBITS_ONE,
