@@ -25,8 +25,8 @@ def data():
     # Initialize serial communication
     try:
         ser = serial.Serial(
-            port='/dev/serial0',  # Use the correct serial port
-            baudrate=9600,        # Adjust the baudrate for the RS485 communication
+            port='/dev/serial0',  # serial port
+            baudrate=9600,        # The baudrate for the RS485 communication
             parity=serial.PARITY_NONE,
             stopbits=serial.STOPBITS_ONE,
             bytesize=serial.EIGHTBITS,
